@@ -1,0 +1,27 @@
+.container {
+  margin: 30px;
+}
+
+.tab,
+.active-tab,
+.disabled-tab {
+  padding: 15px;
+  margin: 1px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.active-tab {
+  border-bottom: 2px solid black;  
+}
+
+.panel {
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+.disabled-tab {
+  opacity: 0.25;
+}
